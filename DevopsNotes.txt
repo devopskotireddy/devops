@@ -1,0 +1,44 @@
+GIt Notes
+================
+
+1. create a GIt account - github.com
+2. Install gitbash 
+
+=====================
+
+configure public / private key path in local and github on web
+ 
+in windows/user/lenovo/.ssh  folder
+
+  =  create a config file without extension and copy the below commands
+	  
+#learndevops
+Host github.com
+  Hostname github.com
+  User git
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/replace with your privatekey
+    
+=========================================
+1. privatekey file you can copy to .ssh folder
+2. publickey you can copy on github =>settings=>ssh and gcp key==> add the publickey here 
+
+ 
+====================================================
+
+create one folder in any place in d drive.
+
+1. git init 
+2. git config --global user.name your github username
+3. git config --global user.email your gihub email id
+4. git clone git@github.com:devopskotireddy/day1.repo.git
+5. create one file on widnows d drive folder = example.txt 
+6. git add example.txt
+7. git commit -m "why your adding this file"
+8. git push -u origin main  ( we ar pushing code to central repo )
+9. finally you will see the example.txt in github url.
+
+
+==================================================
+
+
