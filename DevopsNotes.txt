@@ -38,7 +38,7 @@ create one folder in any place in d drive.
 8. git push -u origin main 
 9. finally you will see the example.txt in github url.
 
-adding
+
 ==================================================
 
 
