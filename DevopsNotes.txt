@@ -35,7 +35,7 @@ create one folder in any place in d drive.
 5. create one file on widnows d drive folder = example.txt 
 6. git add example.txt
 7. git commit -m "why your adding this file"
-8. git push -u origin main 
+8. git push -u origin main  ( we ar pushing code to central repo )
 9. finally you will see the example.txt in github url.
 
 
